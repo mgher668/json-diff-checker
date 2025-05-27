@@ -1,0 +1,37 @@
+{
+  "name": "Test App Modified",
+  "version": "2.0.0",
+  "config": {
+    "debug": false,
+    "timeout": 60,
+    "servers": [
+      {
+        "host": "server1-new.example.com",
+        "port": 8080
+      },
+      {
+        "host": "server2.example.com",
+        "port": 9090
+      }
+    ],
+    "features": {
+      "authentication": false,
+      "logging": {
+        "level": "debug",
+        "file": "/var/log/app.log"
+      }
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "role": "user"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Test App 123",
+  "version": "1.0.0",
+  "config": {
+    "debug": true,
+    "servers": [
+      {
+        "host": "server1.example.com"
+      }
+    ],
+    "features": {
+      "authentication": true
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "role": "aaa"
+    }
+  ]
+}
